@@ -22,7 +22,6 @@ Remember:
 ## Verify Installations / Update Default Python
 
 In VS Code, open a terminal window (View / Terminal).
-If macOS/Linux, change `python` to `python3` in the commands below.
 
 ```shell
 git --version
@@ -40,7 +39,6 @@ With your repo folder open in VS Code:
 1. If not, click on the bottom status bar where it should show the Python version or might say "Select Python Interpreter".
 1. From the dropdown, choose your default Python version.
 1. In VS Code, open a terminal window (View / Terminal).
-1. If macOS/Linux, change `python` to `python3` below.
 
 ```shell
 python util_about.py
@@ -59,6 +57,8 @@ When you finish, you'll have an idea of some things possible using just the Pyth
 You'll have generated several new data files.
 The streaming process will run continuously for quite a while. 
 Read the comments in the file to learn how to stop the process.
+
+In the terminal, if you need to re-run a command, you can simply press the up key until you find a command that you ran previously in the same terminal that needs to be run again.
 
 ## Update Edit README
 
