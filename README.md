@@ -93,6 +93,9 @@ just enter your message in the top line of the file it shows in the editor.
 Then click the checkmark in the upper right to close that file and save your commit message.
 "Sync your changes" to push to GitHub. 
 
+
+I was able to commit using the Terminal in VS Code. Other than having to git add some files, there were no issues.
+
 ### Option B: Use Git Bash or Terminal Commands (Easy as well):
 
 Open a new `Git Bash` or Terminal window. Run the following commands one at a time.
@@ -126,3 +129,10 @@ Do a search on the extension to learn more. VS Code suggestions are usually help
 
 1. For more information about Git in VS Code, see [Using Git source control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview).
 1. For more information about editing Markdown in VS Code, see [Markdown and Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown).
+
+
+## Zach's Notes
+
+Streaming data seems like an interesting way to pull in real time data from some source on the web. It can give us insights at a much faster rate than simply using a bounded data source. However, I can see there being some issues where there is too much data to make sense of, or newer data is always favored while older data is ignored, leading to some key insights being missed. The analytic potential of unbounded data is dependent on the nature of the data. For example, streaming in weather data every 15 minutes may lead somebody to believe that due to rising temperatures over a few day period in February, Spring is about to start and the cold weather and snow is no more. However, any midwesterner will know that a few nice days in the winter is not a good indicator that winter is almost over. Ignoring older data would lead to some poor results in this type of analysis.
+
+Overall, this module went well. Even though I didn't know what all of the code did, it did not seem to matter, as the code was established enough that I could work backwards as needed to better understand the code or potential issues.
